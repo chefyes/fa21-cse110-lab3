@@ -1,0 +1,129 @@
+/*  Set the page background to light blue color
+* 
+*
+*/
+body {
+  background-color:honeydew;
+}
+
+/*  Set the first header to pink
+*
+*
+*/
+h1 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: pink;
+  margin-left: 40%;
+  margin-top: -1%;
+}
+
+/*  Set the second header to pink
+* Offset from the left border by 45vw
+* 
+*/
+h2 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  align-content:center;
+  text-decoration: underline solid black;
+  display: block;
+  margin-left: 3in;
+}
+
+h3 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 5vw;
+}
+
+#sub_title {
+  margin-left:710px;
+  margin-top:-2%;
+}
+
+#attendance {
+  background:rgb(255, 227, 254);
+}
+
+#agenda {
+  background: rgb(235, 244, 255)
+}
+
+#navigate {
+  margin-left:25%;
+}
+
+#agenda_checklist {
+  background-color: rgb(220, 255, 223);  
+}
+
+#checklist_text {
+  margin-left: 25%;
+}
+
+#last_meeting {
+  background-color: rgb(255, 234, 206);
+}
+
+#last_meeting_text {
+  margin-left: 25%;
+}
+
+#current_meeting {
+  background-color:rgb(255, 224, 212);
+}
+
+#current_meeting_text {
+  text-align:left;
+  margin-left: 20px;
+}
+
+#diagrams {
+  background-color: rgb(254, 255, 180);
+}
+
+#meme {
+  background: rgb(216, 237, 245);
+}
+
+#form {
+  background-color:rgb(253, 236, 253);
+  border-style:solid;
+  border-color:black;
+  border-width:1mm;
+  border-radius:50ex;
+}
+
+#form_left {
+  margin-left: 22vw;
+}
+
+#form_right {
+  margin-left: 15vw;
+}
+
+#more_info {
+   margin-left: 25%;
+}
+
+#video {
+  border-style:solid;
+  border-color:cornflowerblue;
+  border-width:0.4rem;
+  border-radius:10vh;
+}
+
+#audio {
+  border-style:solid;
+  border-color:cornflowerblue;
+  border-width:2pt;
+  border-radius:1cm;
+}
+
+#submit {
+  display: inline;
+  margin-left:32%;
+}
+
+#reset {
+  display: inline;
+  margin-left:25%;
+}
