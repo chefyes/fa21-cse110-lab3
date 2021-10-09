@@ -11,7 +11,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 225">
           <path fill="#00cba9" fill-opacity="1" d="M0,32L288,0L576,160L864,224L1152,160L1440,32L1440,0L1152,0L864,0L576,0L288,0L0,0Z"></path>
         </svg>
-        <h1>Project: Brainstorm</h1>
+        <h1 id="home">Project: Brainstorm</h1>
         <section id="sub_title">
           <sub>Brainstorming</sub> <br> 
           <sub>October 3, 2021</sub>
@@ -114,7 +114,7 @@
           <h2 style="margin-left: 39%">Diagrams & Recordings</h2>
           <h3 style="margin-left: 37%">Recording of the Webpage Layout</h3>
           <center>
-            <video width="400" height="320" controls autoplay muted id="video">
+            <video width="400" height="320" controls autoplay loop muted id="video">
               <source src="video/meeting.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -146,17 +146,17 @@
         <section id="form">
           <br>
           <h2>Questions</h2>
-          <form>
-            <label for="fname" id="form_left">First Name:</label>  
+          <form style="padding-top:80px;">
+            <label for="fname">First Name:</label>  
             <input type="text" id="fname" name="firstname"> 
 
-            <label for="lname" id="form_right">Last name:</label> 
+            <label for="lname">Last name:</label> 
             <input type="text" id="lname" name="lastname"> <br><br>
 
-            <label for="question" id="form_left">Question:</label>
+            <label for="question">Question:</label>
             <input type="text" id="question" name="question"> <br><br>
 
-            <label for="occupation" id="form_left">Occupation:</label>
+            <label for="occupation">Occupation:</label>
             <datalist id="occupations">
               <option>Student</option>
               <option>Teacher</option>
@@ -167,29 +167,28 @@
             </datalist>
             <input autocomplete="on" list="occupations"/>
 
-            <span id="form_right">If Other:</span>
+            <span>If Other:</span>
             <input type="text" id="occupation" name=occupation> <br><br>
 
-            <label for="meeting" id="form_left">Next Meeting:</label> 
+            <label for="meeting">Next Meeting:</label> 
             <input type="date" id="meeting" name="next_meeting">
             
-            <section id="form_left">
+            <section>
               <br>
-              <span>Select a Project</span>
-                <label style="margin-left:35%">Was this helpful?</label> <br>
-                <span>
-                  <input type="radio" id="flash" name="project" value="Flash Game">
-                  <label for="flash">Flash Game</label>
-                </span>
-                <select name="choice" style="margin-left:35%">
-                  <option value="first" selected>Yes</option>
-                  <option value="second">No</option>
-                  <option value="third">Maybe?</option>
-                </select> <br>
+              <span>Select a Project</span> <br>
+                <input type="radio" id="flash" name="project" value="Flash Game">
+                <label for="flash">Flash Game</label> <br>
                 <input type="radio" id="pomodoro" name="project" value="Pomodoro Timer">
                 <label for="pomodoro">Pomodoro Timer</label> <br>
                 <input type="radio" id="other" name="project" value="Other">
                 <label for="other">Other</label> <br><br>
+
+                <label>Was this helpful?</label> <br>
+                <select name="choice">
+                  <option value="first" selected>Yes</option>
+                  <option value="second">No</option>
+                  <option value="third">Maybe?</option>
+                </select> <br><br>
             </section>
             
             <input type="submit" value="Submit" id="submit">
@@ -204,10 +203,12 @@
           <section id="more_info">
             <p>
               Check me out on: <br>
-              <a href="https://www.youtube.com/channel/UCtzVoslFKophByUsSopM-oA">youtube</a> <br>
-              <a href="https://mail.google.com/mail/u/0/?fs=1&to=d1lam@ucsd.edu&su=Hi+Daniel!&body=yes+chef&tf=cm">email</a> <br>
-              <a href="https://www.instagram.com/d._.lam">insta</a> <br>
             </p>
+            <ol>
+              <li> <a href="https://www.youtube.com/channel/UCtzVoslFKophByUsSopM-oA">youtube</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/?fs=1&to=d1lam@ucsd.edu&su=Hi+Daniel!&body=yes+chef&tf=cm">email</a></li> 
+              <li><a href="https://www.instagram.com/d._.lam">insta</a></li>
+            </ol>
           </section>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#00cba9" fill-opacity="1" d="M0,32L288,0L576,160L864,224L1152,160L1440,32L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path>
